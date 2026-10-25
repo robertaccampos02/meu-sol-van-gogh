@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#101d3a">
+<title>Para o meu sol 🌻</title>
+<style>
+:root{--night:#101d3a;--blue:#173d82;--gold:#f6d77b;--cream:#fff5df;--soft:#d8e5ff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(circle at 20% 0%,#244d91 0,#101d3a 42%,#080d1d 100%);color:var(--cream);font-family:Georgia,'Times New Roman',serif;line-height:1.7}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.45;background-image:radial-gradient(#ffe7a3 1px,transparent 1.5px),radial-gradient(#fff 1px,transparent 1.5px);background-size:73px 73px,113px 113px;background-position:10px 20px,50px 70px;animation:twinkle 7s ease-in-out infinite alternate}
+@keyframes twinkle{from{opacity:.2}to{opacity:.65}}
+main{max-width:760px;margin:auto;padding:24px 16px 70px;position:relative}
+.hero{text-align:center;padding:54px 8px 28px}
+.eyebrow{letter-spacing:.18em;text-transform:uppercase;font:11px Arial,sans-serif;color:var(--gold)}
+h1{font-size:clamp(2.1rem,8vw,4rem);line-height:1.12;color:var(--gold);font-weight:normal;margin:18px 0}
+.subtitle{font-style:italic;color:var(--soft);font-size:1.08rem;max-width:520px;margin:0 auto 24px}
+button{border:1px solid #e8c86f;border-radius:999px;background:linear-gradient(135deg,#f6d77b,#e8b84e);color:#172344;padding:13px 22px;font-size:15px;font-weight:bold;cursor:pointer;box-shadow:0 6px 24px #0003}
+button:focus-visible{outline:3px solid white;outline-offset:4px}
+.photo-wrap{margin:24px auto 12px;max-width:590px;padding:10px;background:#f4e7cb;border-radius:4px;box-shadow:0 18px 45px #0007;transform:rotate(-.5deg)}
+.photo-wrap img{display:block;width:100%;height:auto}
+.caption{text-align:center;color:var(--gold);font-style:italic;font-size:1rem;margin:18px 0 42px}
+section{margin:26px 0;padding:25px 22px;border:1px solid #f6d77b55;border-radius:18px;background:linear-gradient(145deg,#14294bcc,#101a32e8);box-shadow:0 12px 35px #0002}
+h2{font-size:1.55rem;font-weight:normal;color:var(--gold);margin:0 0 12px}
+p{margin:0 0 14px}
+p:last-child{margin-bottom:0}
+.small{font:12px Arial,sans-serif;letter-spacing:.08em;color:#c5d7ff;text-transform:uppercase}
+.note{display:none;border-left:2px solid var(--gold);padding:4px 0 4px 16px;margin-top:18px;color:#fff5df}
+.note.show{display:block;animation:appear .6s ease}
+@keyframes appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+.memory{padding:18px;border-radius:14px;background:#ffffff0a;border:1px solid #ffffff1b}
+.memory h3{font-size:1.15rem;font-weight:normal;color:#f6d77b;margin:0 0 6px}
+.final{text-align:center;padding:32px 22px}
+.final .sun{font-size:3rem;filter:drop-shadow(0 0 16px #f6d77b88)}
+footer{text-align:center;color:#b9c9e8;font-size:.9rem;margin:34px 0 0}
+.hidden{display:none}
+@media(min-width:600px){.grid{grid-template-columns:1fr 1fr}section{padding:30px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <div class="eyebrow">um pedacinho do nosso universo</div>
+    <h1>Para o meu sol,<br>sob todas as estrelas.</h1>
+    <p class="subtitle">Fiz este pequeno lugar pensando em você, nas nossas lembranças e em tudo aquilo que nem sempre consigo dizer direito.</p>
+    <button onclick="document.getElementById('nossa-historia').scrollIntoView({behavior:'smooth'})">Entre no nosso céu ✨</button>
+  </header>
+
+  <div class="photo-wrap">
+    <img src="nossa-foto.jpeg" alt="Nós duas de mãos dadas diante de uma instalação inspirada em A Noite Estrelada, de Van Gogh">
+  </div>
+  <p class="caption">Uma lembrança nossa, guardada com carinho. 💙</p>
+
+  <section id="nossa-historia">
+    <div class="small">01 · nossa história</div>
+    <h2>Entre tantas cores, eu guardo nós duas.</h2>
+    <p>Eu gosto dessa foto porque ela me lembra que a nossa história é feita de momentos reais: dias bonitos, dias difíceis e lembranças que continuam tendo valor.</p>
+    <p>Naquele instante, estávamos de mãos dadas diante de um céu cheio de movimento e cor. Hoje, quando olho para essa lembrança, só consigo pensar no quanto você é importante para mim.</p>
+  </section>
+
+  <section>
+    <div class="small">02 · uma carta para você</div>
+    <h2>Meu sol, preciso te dizer…</h2>
+    <p>Eu sei que não estamos vivendo os nossos melhores dias. Sei que temos brigado muito e que algumas das minhas atitudes te machucaram. Não quero usar esta carta para justificar meus erros ou pedir que você simplesmente esqueça o que aconteceu.</p>
+    <p>Quero reconhecer que preciso melhorar. Quero aprender a te ouvir de verdade, respeitar seus sentimentos, conversar com mais calma e não deixar que meus medos ou minhas reações acabem machucando alguém que amo tanto.</p>
+    <p>Eu sinto saudade da nossa leveza, das risadas, das pequenas coisas e da tranquilidade de simplesmente estarmos juntas. Sinto saudade, mas também quero construir novas lembranças — não fingindo que nada aconteceu, e sim aprendendo com o que precisa mudar.</p>
+    <p>Eu te amo e ainda quero lutar por nós. Mas quero aprender a fazer isso da maneira certa: sem transformar amor em cobrança, sem esperar que palavras resolvam tudo e sem esquecer que você também tem limites, sentimentos e dores que merecem cuidado.</p>
+    <p>Não posso prometer ser perfeita. Posso, porém, assumir a responsabilidade pelas minhas atitudes e me esforçar para que a mudança apareça nelas, dia após dia. Sei que confiança e tranquilidade são construídas com tempo e constância.</p>
+    <p>Você é muito importante para mim. Nossa história não se resume às dificuldades que estamos enfrentando, e eu guardo com carinho tudo o que vivemos. Não espero que esta carta resolva tudo de uma vez. Só queria que você pudesse conhecer um pouco melhor o que existe no meu coração.</p>
+    <p>Com todo o amor que sinto por você. 💙</p>
+  </section>
+
+  <section>
+    <div class="small">03 · pequenas coisas que amo</div>
+    <h2>Se você quiser, descubra uma por vez.</h2>
+    <div class="grid">
+      <div class="memory">
+        <h3>🌻 Meu sol</h3>
+        <p>É assim que eu te chamo porque esse apelido é seu no meu coração. Você tem um lugar na minha vida que não se parece com o de ninguém.</p>
+      </div>
+      <div class="memory">
+        <h3>🖼️ Nossa exposição</h3>
+        <p>Uma das coisas que quero guardar é a lembrança de nós duas vivendo juntas algo que já tem um significado tão bonito para a nossa história.</p>
+      </div>
+      <div class="memory">
+        <h3>✨ O que eu desejo</h3>
+        <p>Mais conversas tranquilas, mais risadas, mais cuidado, mais respeito e espaço para que as duas possam ser ouvidas.</p>
+      </div>
+      <div class="memory">
+        <h3>💌 O que eu assumo</h3>
+        <p>Não quero que você precise acreditar apenas no que escrevo. Quero que minhas atitudes, com o tempo, mostrem o que estou disposta a fazer diferente.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="small">04 · uma mensagem escondida</div>
+    <h2>Tem mais uma coisinha para você.</h2>
+    <p>Toque no botão quando se sentir pronta. Não precisa ter pressa. 💛</p>
+    <button id="reveal" onclick="revealMessage()">Abrir minha última mensagem 🌙</button>
+    <div class="note" id="last-message">
+      <p>Meu sol, em uma pintura como a de Van Gogh, o céu parece estar sempre em movimento. Há luzes, redemoinhos e partes que se encontram sem serem iguais.</p>
+      <p>Talvez a vida também seja assim. Eu não quero romantizar os nossos momentos difíceis nem achar que o amor sozinho resolve tudo. Quero aprender a cuidar melhor do que temos, se você também quiser construir isso comigo.</p>
+      <p>Obrigada por fazer parte da minha história e por todas as lembranças que dividimos. Você continua sendo alguém muito especial para mim. 🌻</p>
+    </div>
+  </section>
+
+  <section class="final">
+    <div class="sun">🌻</div>
+    <h2>Para você, meu sol.</h2>
+    <p>Que a gente encontre mais delicadeza na forma de conversar, coragem para reconhecer os erros e cuidado para escolher o que fazer daqui para frente.</p>
+    <p style="color:#f6d77b;font-style:italic">Com amor, de mim para você. 💙</p>
+  </section>
+  <footer>Feito com carinho, pensando em nós duas · ✨🌻</footer>
+</main>
+<script>
+function revealMessage(){
+  const note=document.getElementById('last-message');
+  note.classList.add('show');
+  document.getElementById('reveal').textContent='Uma mensagem só sua 💛';
+  document.getElementById('reveal').disabled=true;
+  note.scrollIntoView({behavior:'smooth',block:'center'});
+}
+</script>
+</body>
+</html>
